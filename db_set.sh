@@ -7,8 +7,4 @@ db_set(){
 	echo "$KEY,$VALUE" >> database
 }
 
-main() {
-	db_set
-}
-
-main
+db_set
